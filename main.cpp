@@ -1,17 +1,15 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-    int num1, num2;
+    int a, b;
 
-    // Ввод чисел
-    std::cout << "Введите первое число: ";
-    std::cin >> num1;
-    std::cout << "Введите второе число: ";
-    std::cin >> num2;
+    // Ввод двух чисел
+    cout << "Введите два числа: ";
+    cin >> a >> b;
 
-    // Вывод разности чисел
-    std::cout << "Разность чисел: " << num1 - num2 << std::endl;
+    // Вывод суммы чисел
+    cout << "Сумма чисел: " << (a + b) << endl;
 
     return 0;
 }
-// Эта программа — учебный проект
