@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-<<<<<<< HEAD
+
     int num1, num2;
 
     // Ввод чисел
@@ -12,7 +12,7 @@ int main() {
 
     // Вывод разности чисел
     std::cout << "Разность чисел: " << num1 - num2 << std::endl;
-=======
+
     int a, b;
     cout << "Введите A и B: ";
     cin >> a >> b;
@@ -23,7 +23,7 @@ int main() {
     } else {
         cout << "Деление на ноль невозможно.\n";  // Обработали деление на ноль
     }
->>>>>>> division
+
 
     return 0;
 }
